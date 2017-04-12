@@ -1,0 +1,14 @@
+
+.join-button {
+  display: block;
+  margin: 0 auto;
+  border: none;
+  background-color: transparent;
+  width: 203px;
+  height: 50.5px;
+  background-image: url('/images/button.png');
+  background-size: cover;
+  outline: none;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  margin-top: 2rem;
+}

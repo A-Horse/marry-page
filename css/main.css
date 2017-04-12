@@ -1,0 +1,148 @@
+body {
+  background-color: #212223;
+}
+
+.hunliyaoqing {
+  width: 70.5px;
+  height: 14.5px;
+  background-image: url('/images/hunliyaoqing.png');
+  background-size: cover;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+
+.wedding {
+  width: 179.5px;
+  height: 40.5px;
+  background-image: url('/images/wedding-invitation-of.png');
+  background-size: cover;
+  margin: 0 auto;
+  margin-top: 0.9rem;
+}
+
+.name {
+  overflow: hidden;
+  width: 220px;
+  margin: 0 auto;
+  text-align: center;
+  margin: 1rem auto 1.5rem;
+}
+
+.name-biaojie {
+  display: inline-block;
+  width: 43.5px;
+  height: 31px;
+  background-image: url('/images/01.png');
+  background-size: cover;
+  float: left;
+}
+
+.sq {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 2px;
+  transform: rotate(45deg);
+}
+
+.sq.green-sq {
+  background-color: #7bd6ea;
+}
+
+.sq.pink-sq {
+  background-color: #f78ce3;
+}
+
+.name-lidada {
+  display: inline-block;
+  width: 37px;
+  height: 31.5px;
+  background-image: url('/images/02.png');
+  background-size: cover;
+  float: right;
+}
+
+.protagonist {
+  width: 100%;
+  text-align: center;
+  word-spacing: -14px;
+  text-indent: 50px;
+}
+
+.protagonist--biaojie {
+  display: inline-block;
+  position: relative;
+  width: 135.5px;
+  height: 341px;
+  background-image: url('/images/april.png');
+  background-size: cover;
+}
+
+.protagonist--biaojie .heart {
+  position: absolute;
+  width: 53.5px;
+  height: 48px;
+  background-image: url('/images/heart.png');
+  background-size: cover;
+  left: 53px;
+  top: 166px;
+  animation-name: quiver;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+.protagonist--lidada {
+  position: relative;
+  display: inline-block;
+  width: 167.5px;
+  height: 359.5px;
+  background-image: url('/images/leesan.png');
+  background-size: cover;
+}
+
+.protagonist--lidada .radio {
+  position: absolute;
+  width: 68px;
+  height: 26px;
+  background-image: url('/images/radio.png');
+  background-size: cover;
+  left: 47px;
+  top: 186px;
+  animation-name: move;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.join-button {
+  display: block;
+  margin: 0 auto;
+  border: none;
+  background-color: transparent;
+  width: 203px;
+  height: 50.5px;
+  background-image: url('/images/button.png');
+  background-size: cover;
+  outline: none;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  margin-top: 2rem;
+}
+
+
+@keyframes quiver {
+  from {
+    transform: scale(1, 1);
+  }
+  to {
+    transform: scale(1.1, 1.1);
+  }
+}
+
+@keyframes move {
+  from {
+    background-position-x: 0%;
+  }
+  to {
+    background-position-x: 100%;
+  }
+}
