@@ -1,3 +1,8 @@
+body {
+  background-color: #212223;
+  overflow: hidden;
+}
+
 
 .join-button {
   display: block;
@@ -11,4 +16,195 @@
   outline: none;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   margin-top: 2rem;
+}
+
+.join-button:active {
+  opacity: 0.8;
+}
+
+
+.protagonist {
+  width: 100%;
+  text-align: center;
+  word-spacing: -14px;
+  text-indent: 50px;
+  position: relative;
+  height: 150px;
+}
+
+.center-heart {
+  position: absolute;
+  width: 53.5px;
+  height: 48px;
+  background-image: url('/images/heart.png');
+  background-size: cover;
+  left: 50%;
+  margin-left: -26.75px;
+  top: 70px;
+  animation-name: quiver;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+.protagonist--biaojie {
+  position: absolute;
+  width: 135.5px;
+  height: 341px;
+  background-image: url('/images/april.png');
+  background-size: cover;
+  transform: rotate(60deg);
+  left: -80px;
+  top: -20px;
+}
+
+.protagonist--biaojie .heart {
+  position: absolute;
+  width: 53.5px;
+  height: 48px;
+  background-image: url('/images/heart.png');
+  background-size: cover;
+  left: 53px;
+  top: 166px;
+  animation-name: quiver;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+.protagonist--lidada {
+  position: relative;
+  display: inline-block;
+  width: 167.5px;
+  height: 359.5px;
+  background-image: url('/images/leesan.png');
+  background-size: cover;
+  transform: rotate(-50deg);
+  right: -175px;
+  top: -40px;
+}
+
+.protagonist--lidada .radio {
+  position: absolute;
+  width: 68px;
+  height: 26px;
+  background-image: url('/images/radio.png');
+  background-size: cover;
+  left: 47px;
+  top: 186px;
+  animation-name: move;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.time-address {
+  margin: 0 auto;
+  width: 130px;
+  height: 30px;
+  background-image: url('/images/time-adress.png');
+  background-size: cover;
+  margin-bottom: 1.5rem;
+}
+
+.address-detail {
+  margin: 0 auto;
+  width: 211px;
+  height: 52.5px;
+  background-image: url('/images/address.png');
+  background-size: cover;
+  margin-bottom: 1.5rem;
+}
+
+.time {
+  margin: 0 auto;
+  width: 123px;
+  height: 13.5px;
+  background-image: url('/images/time.png');
+  background-size: cover;
+  margin-bottom: 5rem;
+}
+
+.name-label {
+  margin: 0 auto;
+  width: 98px;
+  height: 12.5px;
+  background-image: url('/images/name-label.png');
+  background-size: cover;
+  margin-bottom: 0.7rem;
+}
+
+input {
+  display: block;
+  margin: 0 auto;
+  height: 45px;
+  width: 195px;
+  border: 0;
+  outline: 0;
+  background-color: #1a1b1c;
+  text-align: center;
+  font-size: 25px;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  color: white;
+  margin-bottom: 2rem;
+  font-weight: 200;
+}
+
+.number-label {
+  margin: 0 auto;
+  width: 88.5px;
+  height: 11px;
+  background-image: url('/images/howmanypeople.png');
+  background-size: cover;
+  margin-bottom: 0.7rem;
+}
+
+.number-counter {
+  text-align: center;
+  color: white;
+}
+
+.number-counter .add {
+  font-size: 26px;
+  display: inline-block;
+  height: 25px;
+  width: 25px;
+  background-color: #616dde;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 21px;
+}
+
+.number-counter .reduce {
+  font-size: 26px;
+  display: inline-block;
+  height: 25px;
+  width: 25px;
+  background-color: #ca84d6;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 21px;
+}
+
+.number-counter #number {
+  font-size: 30px;
+  vertical-align: middle;
+  font-weight: 300;
+  padding: 0 10px;
+}
+
+@keyframes quiver {
+  from {
+    transform: scale(1, 1);
+  }
+  to {
+    transform: scale(1.1, 1.1);
+  }
+}
+
+@keyframes move {
+  from {
+    background-position-x: 0%;
+  }
+  to {
+    background-position-x: 100%;
+  }
 }
