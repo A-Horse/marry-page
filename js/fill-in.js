@@ -16,7 +16,7 @@ window.onload = function() {
 
   document.getElementById('ok').addEventListener('click', function() {
     var http = new XMLHttpRequest();
-    var url = "http://www.chenfangwei.zyx/api/fill-in";
+    var url = "http://www.chenfangwei.xyz/api/fill-in";
     http.open("POST", url, true);
 
 
