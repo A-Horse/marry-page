@@ -25,7 +25,7 @@ window.onload = function() {
     http.onreadystatechange = function() {//Call a function when the state changes.
       if( http.readyState == 4 ) {
         if (http.status == 201) {
-          window.location.href = '/thank.html'
+          window.location.href = './thank.html'
         } else {
           alert('错误了');
         }
