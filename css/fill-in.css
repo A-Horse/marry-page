@@ -1,6 +1,6 @@
 body {
   background-color: #212223;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 
@@ -31,6 +31,8 @@ body {
   position: relative;
   height: 150px;
 }
+
+
 
 .center-heart {
   position: absolute;
@@ -95,6 +97,8 @@ body {
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
+
+
 
 .time-address {
   margin: 0 auto;
@@ -191,6 +195,35 @@ input {
   padding: 0 10px;
 }
 
+@media only screen and (max-height: 600px) {
+  .protagonist {
+    transform: scale(0.8, 0.8);
+  }
+  .protagonist--biaojie {
+    left: -110px;
+  }
+  .protagonist--lidada {
+    right: -180px;
+  }
+
+  .time {
+    margin-bottom: 2rem;
+  }
+
+  input {
+    margin-bottom: 1rem;
+  }
+
+  .number-counter {
+    margin-bottom: 1rem;
+  }
+
+  .join-button {
+    margin-top: 1rem;
+  }
+}
+
+
 @keyframes quiver {
   from {
     transform: scale(1, 1);
@@ -207,4 +240,24 @@ input {
   to {
     background-position-x: 100%;
   }
+}
+
+#mask {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.8);
+  height: 100%;
+  width: 100%;
+  display: none;
+}
+
+.loading {
+  position: absolute;
+  background-image: url("/images/animal.gif");
+  width: 180px;
+  height: 180px;
+  z-index: 100;
+  left: 50%;
+  top: 50%;
+  margin-top: -90px;
+  margin-left: -90px;
 }

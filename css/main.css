@@ -1,5 +1,6 @@
 body {
   background-color: #212223;
+  overflow-x: hidden;
 }
 
 .hunliyaoqing {
@@ -66,8 +67,10 @@ body {
   width: 100%;
   text-align: center;
   word-spacing: -14px;
-  text-indent: 50px;
+  text-indent: 3.1rem;
+  white-space: nowrap;
 }
+
 
 .protagonist--biaojie {
   display: inline-block;
@@ -130,6 +133,18 @@ body {
 
 .join-button:active {
   opacity: 0.8;
+}
+
+@media only screen and (max-height: 600px) {
+  .protagonist {
+    transform: scale(0.8, 0.8);
+    text-indent: 2.3rem;
+    margin-top: -50px;
+  }
+
+  .join-button {
+    margin-top: 0;
+  }
 }
 
 
