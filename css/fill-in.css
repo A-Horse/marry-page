@@ -35,7 +35,7 @@ body {
   word-spacing: -14px;
   text-indent: 50px;
   position: relative;
-  height: 150px;
+  height: 300px;
 }
 
 
@@ -113,6 +113,7 @@ body {
   background-image: url('/images/time-adress.png');
   background-size: cover;
   margin-bottom: 1.5rem;
+  margin-top: -150px; */
 }
 
 .address-detail {
