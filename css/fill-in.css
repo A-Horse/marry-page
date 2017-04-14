@@ -205,7 +205,7 @@ input {
 
 @media only screen and (max-height: 600px) {
   .protagonist {
-    transform: scale(0.8, 0.8);
+
   }
   .protagonist--biaojie {
     left: -110px;
