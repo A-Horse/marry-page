@@ -18,7 +18,7 @@ body {
   background-color: transparent;
   width: 203px;
   height: 50.5px;
-  background-image: url('/images/button.png');
+  background-image: url('http://www.chenfangwei.xyz/images/button.png');
   background-size: cover;
   outline: none;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
@@ -48,7 +48,7 @@ body {
   position: absolute;
   width: 53.5px;
   height: 48px;
-  background-image: url('/images/heart.png');
+  background-image: url('http://www.chenfangwei.xyz/images/heart.png');
   background-size: cover;
   left: 50%;
   margin-left: -26.75px;
@@ -62,10 +62,9 @@ body {
   position: absolute;
   width: 135.5px;
   height: 341px;
-  background-image: url('/images/april.png');
+  background-image: url('http://www.chenfangwei.xyz/images/april.png');
   background-size: cover;
   transform: rotate(60deg);
-  /* left: -80px; */
   top: -20px;
   left: 50%;
   margin-left: -274px;
@@ -75,7 +74,7 @@ body {
   position: absolute;
   width: 53.5px;
   height: 48px;
-  background-image: url('/images/heart.png');
+  background-image: url('http://www.chenfangwei.xyz/images/heart.png');
   background-size: cover;
   left: 53px;
   top: 166px;
@@ -89,7 +88,7 @@ body {
   display: inline-block;
   width: 167.5px;
   height: 359.5px;
-  background-image: url('/images/leesan.png');
+  background-image: url('http://www.chenfangwei.xyz/images/leesan.png');
   background-size: cover;
   transform: rotate(-50deg);
   right: -175px;
@@ -100,7 +99,7 @@ body {
   position: absolute;
   width: 68px;
   height: 26px;
-  background-image: url('/images/radio.png');
+  background-image: url('http://www.chenfangwei.xyz/images/radio.png');
   background-size: cover;
   left: 47px;
   top: 186px;
@@ -262,16 +261,4 @@ input {
   height: 100%;
   width: 100%;
   display: none;
-}
-
-.loading {
-  position: absolute;
-  background-image: url("/images/animal.gif");
-  width: 180px;
-  height: 180px;
-  z-index: 100;
-  left: 50%;
-  top: 50%;
-  margin-top: -90px;
-  margin-left: -90px;
 }
