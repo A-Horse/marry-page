@@ -15,6 +15,12 @@ window.onload = function() {
   });
 
   document.getElementById('ok').addEventListener('click', function() {
+    var name = document.getElementById('name').value.trim();
+    if (!name) {
+      return alert('请输入名字');
+    }
+
+
     var http = new XMLHttpRequest();
     var url = "http://www.chenfangwei.xyz/api/fill-in";
     http.open("POST", url, true);
@@ -32,7 +38,7 @@ window.onload = function() {
       }
     }
 
-    var data = JSON.stringify({name: document.getElementById('name').value, number: currentNumber});
+    var data = JSON.stringify({name: name, number: currentNumber});
     http.send(data);
   });
 };
