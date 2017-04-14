@@ -63,8 +63,10 @@ body {
   background-image: url('/images/april.png');
   background-size: cover;
   transform: rotate(60deg);
-  left: -80px;
+  /* left: -80px; */
   top: -20px;
+  left: 50%;
+  margin-left: -274px;
 }
 
 .protagonist--biaojie .heart {
@@ -209,7 +211,7 @@ input {
 
   }
   .protagonist--biaojie {
-    left: -110px;
+    /* right: -102px; */
   }
   .protagonist--lidada {
     right: -180px;
@@ -229,6 +231,7 @@ input {
 
   .join-button {
     margin-top: 1rem;
+    margin-bottom: 3rem;
   }
 }
 
