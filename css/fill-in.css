@@ -46,9 +46,9 @@ body {
 
 .center-heart {
   position: absolute;
-  width: 53.5px;
-  height: 48px;
-  background-image: url('http://www.chenfangwei.xyz/images/heart.png');
+  width: 25px;
+  height: 22px;
+  background-image: url('http://www.chenfangwei.xyz/images/heart-small.png');
   background-size: cover;
   left: 50%;
   margin-left: -26.75px;
