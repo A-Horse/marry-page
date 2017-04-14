@@ -85,7 +85,7 @@ body {
   position: absolute;
   width: 53.5px;
   height: 48px;
-  background-image: url('/images/heart.png');
+  background-image: url('http://www.chenfangwei.xyz/images/heart.png');
   background-size: cover;
   left: 53px;
   top: 166px;
