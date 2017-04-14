@@ -51,8 +51,8 @@ body {
   background-image: url('http://www.chenfangwei.xyz/images/heart-small.png');
   background-size: cover;
   left: 50%;
-  margin-left: -26.75px;
-  top: 70px;
+  margin-left: -12.25px;
+  top: 75px;
   animation-name: quiver;
   animation-duration: 1s;
   animation-iteration-count: infinite;
