@@ -6,7 +6,7 @@ body {
 .thank {
   width: 190.5px;
   height: 40.5px;
-  background-image: url('/images/thankyou.png');
+  background-image: url('http://www.chenfangwei.xyz/images/thankyou.png');
   background-size: cover;
   position: absolute;
   left: 50%;
@@ -19,7 +19,7 @@ body {
 .heart {
   width: 19.23px;
   height: 16.923px;
-  background-image: url('/images/heart-small.png');
+  background-image: url('http://www.chenfangwei.xyz/images/heart-small.png');
   background-size: cover;
   position: absolute;
   left: 154px;
