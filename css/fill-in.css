@@ -234,6 +234,11 @@ input {
     margin-top: 1rem;
     margin-bottom: 5rem;
   }
+
+  .join-button {
+    height: 10px;
+    width: 100%;
+  }
 }
 
 
