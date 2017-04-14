@@ -6,7 +6,7 @@ body {
 .hunliyaoqing {
   width: 70.5px;
   height: 14.5px;
-  background-image: url('/images/hunliyaoqing.png');
+  background-image: url('http://www.chenfangwei.xyz/images/hunliyaoqing.png');
   background-size: cover;
   margin: 0 auto;
   margin-top: 2rem;
@@ -15,7 +15,7 @@ body {
 .wedding {
   width: 179.5px;
   height: 40.5px;
-  background-image: url('/images/wedding-invitation-of.png');
+  background-image: url('http://www.chenfangwei.xyz/images/wedding-invitation-of.png');
   background-size: cover;
   margin: 0 auto;
   margin-top: 0.9rem;
@@ -33,7 +33,7 @@ body {
   display: inline-block;
   width: 43.5px;
   height: 31px;
-  background-image: url('/images/01.png');
+  background-image: url('http://www.chenfangwei.xyz/images/01.png');
   background-size: cover;
   float: left;
 }
@@ -58,7 +58,7 @@ body {
   display: inline-block;
   width: 37px;
   height: 31.5px;
-  background-image: url('/images/02.png');
+  background-image: url('http://www.chenfangwei.xyz/images/02.png');
   background-size: cover;
   float: right;
 }
@@ -77,7 +77,7 @@ body {
   position: relative;
   width: 135.5px;
   height: 341px;
-  background-image: url('/images/april.png');
+  background-image: url('http://www.chenfangwei.xyz/images/april.png');
   background-size: cover;
 }
 
@@ -99,7 +99,7 @@ body {
   display: inline-block;
   width: 167.5px;
   height: 359.5px;
-  background-image: url('/images/leesan.png');
+  background-image: url('http://www.chenfangwei.xyz/images/leesan.png');
   background-size: cover;
 }
 
@@ -107,7 +107,7 @@ body {
   position: absolute;
   width: 68px;
   height: 26px;
-  background-image: url('/images/radio.png');
+  background-image: url('http://www.chenfangwei.xyz/images/radio.png');
   background-size: cover;
   left: 47px;
   top: 186px;
@@ -124,7 +124,7 @@ body {
   background-color: transparent;
   width: 203px;
   height: 50.5px;
-  background-image: url('/images/button.png');
+  background-image: url('http://www.chenfangwei.xyz/images/button.png');
   background-size: cover;
   outline: none;
   -webkit-tap-highlight-color: rgba(0,0,0,0);

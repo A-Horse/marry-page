@@ -1,5 +1,4 @@
 
-
 window.onload = function() {
   var currentNumber = 1;
   document.getElementById('number-add').addEventListener('click', function(event) {
@@ -24,10 +23,12 @@ window.onload = function() {
     http.setRequestHeader("Content-type", "application/json");
 
     http.onreadystatechange = function() {//Call a function when the state changes.
-      if(http.readyState == 4 && http.status == 201) {
-        window.location.href = '/thank.html'
-      } else {
-        alert('错误了.')
+      if( http.readyState == 4 ) {
+        if (http.status == 201) {
+          window.location.href = '/thank.html'
+        } else {
+          alert('错误了');
+        }
       }
     }
 
