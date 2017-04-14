@@ -115,7 +115,7 @@ body {
   margin: 0 auto;
   width: 130px;
   height: 30px;
-  background-image: url('/images/time-adress.png');
+  background-image: url('http://www.chenfangwei.xyz/images/time-adress.png');
   background-size: cover;
   margin-bottom: 1.5rem;
   margin-top: -150px; */
@@ -125,7 +125,7 @@ body {
   margin: 0 auto;
   width: 211px;
   height: 52.5px;
-  background-image: url('/images/address.png');
+  background-image: url('http://www.chenfangwei.xyz/images/address.png');
   background-size: cover;
   margin-bottom: 1.5rem;
 }
@@ -134,7 +134,7 @@ body {
   margin: 0 auto;
   width: 123px;
   height: 13.5px;
-  background-image: url('/images/time.png');
+  background-image: url('http://www.chenfangwei.xyz/images/time.png');
   background-size: cover;
   margin-bottom: 5rem;
 }
@@ -143,7 +143,7 @@ body {
   margin: 0 auto;
   width: 98px;
   height: 12.5px;
-  background-image: url('/images/name-label.png');
+  background-image: url('http://www.chenfangwei.xyz/images/name-label.png');
   background-size: cover;
   margin-bottom: 0.7rem;
 }
@@ -168,7 +168,7 @@ input {
   margin: 0 auto;
   width: 88.5px;
   height: 11px;
-  background-image: url('/images/howmanypeople.png');
+  background-image: url('http://www.chenfangwei.xyz/images/howmanypeople.png');
   background-size: cover;
   margin-bottom: 0.7rem;
 }
