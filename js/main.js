@@ -7,7 +7,7 @@ window.onload = function() {
 
   var shakeMusic = document.getElementById("shakeMusic");
   shakeMusic.load();
-//  shakeMusic.play();
+  shakeMusic.play();
   window.addEventListener('shake', shakeEventDidOccur, false);
 
   function shakeEventDidOccur(obj) {
