@@ -3,7 +3,7 @@ body {
   overflow-x: hidden;
 }
 
-.hunliyaoqing {
+#page1 .hunliyaoqing {
   width: 70.5px;
   height: 14.5px;
   background-image: url('http://www.chenfangwei.xyz/images/hunliyaoqing.png');
@@ -12,7 +12,7 @@ body {
   margin-top: 2rem;
 }
 
-.wedding {
+#page1 .wedding {
   width: 179.5px;
   height: 40.5px;
   background-image: url('http://www.chenfangwei.xyz/images/wedding-invitation-of.png');
@@ -21,7 +21,7 @@ body {
   margin-top: 0.9rem;
 }
 
-.name {
+#page1 .name {
   overflow: hidden;
   width: 220px;
   margin: 0 auto;
@@ -29,7 +29,7 @@ body {
   margin: 1rem auto 1.5rem;
 }
 
-.name-biaojie {
+#page1 .name-biaojie {
   display: inline-block;
   width: 43.5px;
   height: 31px;
@@ -38,7 +38,7 @@ body {
   float: left;
 }
 
-.sq {
+#page1 .sq {
   display: inline-block;
   width: 10px;
   height: 10px;
@@ -46,15 +46,15 @@ body {
   transform: rotate(45deg);
 }
 
-.sq.green-sq {
+#page1 .sq.green-sq {
   background-color: #7bd6ea;
 }
 
-.sq.pink-sq {
+#page1 .sq.pink-sq {
   background-color: #f78ce3;
 }
 
-.name-lidada {
+#page1 .name-lidada {
   display: inline-block;
   width: 37px;
   height: 31.5px;
@@ -63,7 +63,7 @@ body {
   float: right;
 }
 
-.protagonist {
+#page1 .protagonist {
   width: 100%;
   text-align: center;
   word-spacing: -14px;
@@ -72,7 +72,7 @@ body {
 }
 
 
-.protagonist--biaojie {
+#page1 .protagonist--biaojie {
   display: inline-block;
   position: relative;
   width: 135.5px;
@@ -81,7 +81,7 @@ body {
   background-size: cover;
 }
 
-.protagonist--biaojie .heart {
+#page1 .protagonist--biaojie .heart {
   position: absolute;
   width: 53.5px;
   height: 48px;
@@ -94,7 +94,7 @@ body {
   animation-iteration-count: infinite;
 }
 
-.protagonist--lidada {
+#page1 .protagonist--lidada {
   position: relative;
   display: inline-block;
   width: 167.5px;
@@ -103,7 +103,7 @@ body {
   background-size: cover;
 }
 
-.protagonist--lidada .radio {
+#page1 .protagonist--lidada .radio {
   position: absolute;
   width: 68px;
   height: 26px;
@@ -117,7 +117,7 @@ body {
   animation-timing-function: linear;
 }
 
-.join-button {
+#page1 .join-button {
   display: block;
   margin: 0 auto;
   border: none;
@@ -131,18 +131,18 @@ body {
   margin-top: 2rem;
 }
 
-.join-button:active {
+#page1 .join-button:active {
   opacity: 0.8;
 }
 
 @media only screen and (max-height: 600px) {
-  .protagonist {
+  #page1 .protagonist {
     transform: scale(0.8, 0.8);
     text-indent: 2.3rem;
     margin-top: -50px;
   }
 
-  .join-button {
+  #page1 .join-button {
     margin-top: 0;
     margin-bottom: 2rem;
   }

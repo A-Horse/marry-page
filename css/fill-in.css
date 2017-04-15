@@ -7,11 +7,10 @@ body {
   overflow-x: hidden;
   height: 100%;
   width: 100%;
-  padding-bottom: 1rem;
 }
 
 
-.join-button {
+#page2 .join-button {
   display: block;
   margin: 0 auto;
   border: none;
@@ -25,12 +24,12 @@ body {
   margin-top: 1rem;
 }
 
-.join-button:active {
+#page2 .join-button:active {
   opacity: 0.8;
 }
 
 
-.protagonist {
+#page2 .protagonist {
   width: 100%;
   text-align: center;
   word-spacing: -14px;
@@ -44,7 +43,7 @@ body {
 
 
 
-.center-heart {
+#page2 .center-heart {
   position: absolute;
   width: 25px;
   height: 22px;
@@ -58,7 +57,7 @@ body {
   animation-iteration-count: infinite;
 }
 
-.protagonist--biaojie {
+#page2 .protagonist--biaojie {
   position: absolute;
   width: 135.5px;
   height: 341px;
@@ -70,7 +69,7 @@ body {
   margin-left: -274px;
 }
 
-.protagonist--biaojie .heart {
+#page2 .protagonist--biaojie .heart {
   position: absolute;
   width: 53.5px;
   height: 48px;
@@ -83,7 +82,7 @@ body {
   animation-iteration-count: infinite;
 }
 
-.protagonist--lidada {
+#page2 .protagonist--lidada {
   position: relative;
   display: inline-block;
   width: 167.5px;
@@ -95,7 +94,7 @@ body {
   top: -40px;
 }
 
-.protagonist--lidada .radio {
+#page2 .protagonist--lidada .radio {
   position: absolute;
   width: 68px;
   height: 26px;
@@ -111,7 +110,7 @@ body {
 
 
 
-.time-address {
+#page2 .time-address {
   margin: 0 auto;
   width: 130px;
   height: 30px;
@@ -121,7 +120,7 @@ body {
   margin-top: -150px; */
 }
 
-.address-detail {
+#page2 .address-detail {
   margin: 0 auto;
   width: 211px;
   height: 52.5px;
@@ -130,7 +129,7 @@ body {
   margin-bottom: 1.5rem;
 }
 
-.time {
+#page2 .time {
   margin: 0 auto;
   width: 123px;
   height: 13.5px;
@@ -139,7 +138,7 @@ body {
   margin-bottom: 4rem;
 }
 
-.name-label {
+#page2 .name-label {
   margin: 0 auto;
   width: 98px;
   height: 12.5px;
@@ -148,7 +147,7 @@ body {
   margin-bottom: 0.7rem;
 }
 
-input {
+#page2 input {
   display: block;
   margin: 0 auto;
   height: 45px;
@@ -164,7 +163,7 @@ input {
   font-weight: 200;
 }
 
-.number-label {
+#page2 .number-label {
   margin: 0 auto;
   width: 88.5px;
   height: 11px;
@@ -173,12 +172,12 @@ input {
   margin-bottom: 0.7rem;
 }
 
-.number-counter {
+#page2 .number-counter {
   text-align: center;
   color: white;
 }
 
-.number-counter .add {
+#page2 .number-counter .add {
   font-size: 26px;
   display: inline-block;
   height: 25px;
@@ -189,7 +188,7 @@ input {
   line-height: 21px;
 }
 
-.number-counter .reduce {
+#page2 .number-counter .reduce {
   font-size: 26px;
   display: inline-block;
   height: 25px;
@@ -200,7 +199,7 @@ input {
   line-height: 21px;
 }
 
-.number-counter #number {
+#page2 .number-counter #number {
   font-size: 30px;
   vertical-align: middle;
   font-weight: 300;
@@ -211,31 +210,31 @@ input {
   .protagonist {
 
   }
-  .protagonist--biaojie {
+  #page2 .protagonist--biaojie {
     /* right: -102px; */
   }
-  .protagonist--lidada {
+  #page2 .protagonist--lidada {
     right: -180px;
   }
 
-  .time {
+  #page2 .time {
     margin-bottom: 2rem;
   }
 
-  input {
+  #page2 input {
     margin-bottom: 1rem;
   }
 
-  .number-counter {
+  #page2 .number-counter {
     margin-bottom: 1rem;
   }
 
-  .join-button {
+  #page2 .join-button {
     margin-top: 1rem;
     margin-bottom: 2rem;
   }
 
-  .bottom-ph {
+  #page2 .bottom-ph {
     height: 10px;
     width: 100%;
   }
@@ -258,12 +257,4 @@ input {
   to {
     background-position-x: 100%;
   }
-}
-
-#mask {
-  position: absolute;
-  background-color: rgba(0, 0, 0, 0.8);
-  height: 100%;
-  width: 100%;
-  display: none;
 }

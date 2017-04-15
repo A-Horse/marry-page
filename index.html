@@ -10,34 +10,73 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/an.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/fill-in.css">
   </head>
   <body>
 
     <audio id="shakeMusic" src="http://www.chenfangwei.xyz/bgm.mp3" class="media-audio" autoplay preload loop></audio>
 
-    <div class="hunliyaoqing animated bounce"></div>
-    <div class="wedding animated bounce"></div>
+    <div id="page1">
+      <div class="hunliyaoqing animated bounce"></div>
+      <div class="wedding animated bounce"></div>
 
-    <div class="name animated bounce">
-      <div class="name-biaojie animated fadeInLeft"></div>
+      <div class="name animated bounce">
+        <div class="name-biaojie animated fadeInLeft"></div>
 
-      <div class="green-sq sq"></div>
-      <div class="pink-sq sq"></div>
+        <div class="green-sq sq"></div>
+        <div class="pink-sq sq"></div>
 
-      <div class="name-lidada animated fadeInRight"></div>
-    </div>
-
-    <div class="protagonist">
-      <div class="protagonist--biaojie animated fadeInLeft">
-        <div class="heart"></div>
+        <div class="name-lidada animated fadeInRight"></div>
       </div>
 
-      <div class="protagonist--lidada animated fadeInRight">
-        <div class="radio"></div>
+      <div class="protagonist">
+        <div class="protagonist--biaojie animated fadeInLeft">
+          <div class="heart"></div>
+        </div>
+
+        <div class="protagonist--lidada animated fadeInRight">
+          <div class="radio"></div>
+        </div>
       </div>
+
+      <a id="button1" class="join-button"></a>
     </div>
 
-    <a class="join-button" href="./fill-in.html"></a>
+    <div id="page2" style="display: none">
+      <div class="protagonist">
+        <div class="protagonist--biaojie">
+          <div class="heart"></div>
+        </div>
+
+        <div class="center-heart"></div>
+
+        <div class="protagonist--lidada">
+          <div class="radio"></div>
+        </div>
+      </div>
+
+      <div class="time-address"></div>
+
+      <div class="address-detail"></div>
+
+      <div class="time"></div>
+
+      <div class="name-label"></div>
+
+      <input name="" type="text" id="name" />
+
+      <div class="number-label"></div>
+
+      <div class="number-counter">
+        <span id="number-add" class="add">+</span>
+        <span id="number">1</span>
+        <span id="number-reducer" class="reduce">-</span>
+      </div>
+
+      <a class="join-button" id="ok"></a>
+
+      <div class="bottom-ph"></div>
+    </div>
     <script src="js/main.js"></script>
 
   </body>
