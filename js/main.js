@@ -1,4 +1,8 @@
-
+var shakeMusic = document.getElementById("shakeMusic");
+shakeMusic.load();
+document.addEventListener("WeixinJSBridgeReady", function () {
+  shakeMusic.play();
+}, false);
 
 // window.onload = function() {
 
@@ -20,6 +24,8 @@
 //   }, false);
 
 //   window.addEventListener('touchstart', shakeEventDidOccur, false);
+
+
 
 
 // };
