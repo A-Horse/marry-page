@@ -2,7 +2,7 @@
 
 window.onload = function() {
 
-  var audio = new Audio('bgm.mp3');
+  var audio = new Audio('http://www.chenfangwei.xyz/bgm.mp3');
   audio.play();
 
 };
