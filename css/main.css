@@ -146,6 +146,11 @@ body {
     margin-top: 0;
     margin-bottom: 2rem;
   }
+
+  #page1 .bottom-ph {
+    height: 10px;
+    width: 100%;
+  }
 }
 
 
