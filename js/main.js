@@ -41,7 +41,8 @@ window.onload = function() {
     http.onreadystatechange = function() {//Call a function when the state changes.
       if( http.readyState == 4 ) {
         if (http.status == 201) {
-          window.location.href = './thank.html'
+          document.getElementById('page2').style.display = 'none';
+          document.getElementById('page3').style.display = 'block';
         } else {
           alert('错误了');
         }
