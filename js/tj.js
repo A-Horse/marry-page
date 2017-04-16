@@ -1,6 +1,6 @@
 
 var http = new XMLHttpRequest();
-var url = "http://localhost:8096/api/tj";
+var url = "http://www.chenfangwei.xyz/api/tj";
 http.open("GET", url, true);
 
 
